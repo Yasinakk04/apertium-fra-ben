@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/user/apertium-fra-ben/ben-fra.automorf.bin' | cg-proc -w '/home/user/apertium-fra-ben/ben-fra.rlx.bin' | apertium-tagger -g $2 '/home/user/apertium-fra-ben/ben-fra.prob' | apertium-pretransfer

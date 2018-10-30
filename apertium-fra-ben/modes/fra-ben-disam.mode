@@ -1,0 +1,2 @@
+
+  lt-proc -w '/home/user/apertium-fra-ben/fra-ben.automorf.bin' | cg-proc -w -t '/home/user/apertium-fra-ben/fra-ben.rlx.bin' 
